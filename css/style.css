@@ -1,0 +1,118 @@
+.navbar-color {
+    background: #d53232;
+}
+.navbar-color a {
+    width: 150px;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.navbar-color a:first-of-type {
+    border-left: 2px solid #000;
+}
+.navbar-color a:last-of-type {
+    border-right: 2px solid #000;
+}
+.main-banner {
+    background-image: url('../assets/texture-background.jpg');
+    height: 400px;
+    border-bottom: 4px solid #d53232;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar-item-active {
+    background: #a9020a;
+}
+.banner-container h1 {
+    font-size: 40px;
+}
+.banner-container .lead {
+    font-size: 18px;
+    text-align: center;
+    background: #a37970;
+    color: #febc7a;
+    margin-top: 12px;
+}
+.main-container .main-header {
+    font-size: 40px;
+    color: #d53232;
+}
+.item {
+    border: 1px solid #de5e5e;
+    border-radius: 0px !important;
+    background: #fff7f7;
+}
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-item{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 0;
+
+}
+.item1{
+    background:#4b89dc;
+}
+.item2{
+    background:#2dcc70;
+}
+.item3{
+    background:#b8336a;
+}
+.item4{
+    background:#fb6e52;
+}
+.item5{
+    background:#4fc0e8;
+}
+.item6{
+    background:#da942c;
+}
+.item7{
+    background:#613d3e;
+}
+.item8{
+    background:#7f4592;
+}
+.item9{
+    background:#0d4ea5;
+}
+.item10{
+    background:#707a88;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-color a {
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+    }
+    .navbar-color a:first-of-type {
+        border-top: 2px solid #000;
+    }
+    .navbar-color a:last-of-type {
+        border-bottom: 2px solid #000;
+    }
+    .footer-items{
+        flex-direction: column;
+        
+    }
+    .footer-item{
+        width: 100%;
+        
+        
+    }
+}
+@media (max-width: 767.98px) {}
+@media (max-width: 991.98px) {}
+@media (max-width: 1199.98px) {}
